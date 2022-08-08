@@ -23,4 +23,5 @@ async function startApolloServer(schema: any, resolvers: any) {
     `Server is ready at at http://localhost:4000${server.graphqlPath}`
   );
 }
+
 startApolloServer(Schema, Resolvers);
